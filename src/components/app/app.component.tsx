@@ -17,10 +17,10 @@ const App: React.FC = () => {
             <Router>
                 <Header />
                 <Switch>
-                    <Route path="/">
+                    <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/about">
+                    <Route exact path="/about">
                         <About />
                     </Route>
                 </Switch>

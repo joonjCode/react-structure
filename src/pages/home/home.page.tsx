@@ -1,5 +1,5 @@
 import React from 'react';
-import PostsGrid from '../../components/posts-grid/posts-grid.component';
+import PostsGrid from '../../components/posts/posts-grid/posts-grid.component';
 import { useGetPosts } from '../../hooks/posts/userGetPosts';
 
 
